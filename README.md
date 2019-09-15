@@ -7,7 +7,7 @@ This is my personal collection of dotfile customizations, managed with [`dotbot`
 - bash files
 - git
 - vscode
-- zsh
+- Zsh (I use [`Spaceship ZSH`](https://denysdovhan.com/spaceship-prompt/))
 
 ## Installation
 
