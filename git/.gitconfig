@@ -1,0 +1,12 @@
+[user]
+	name = bb8bear
+	email = rachel.kerner@gmail.com
+[alias]
+	co = checkout
+	br = branch
+	unstage = reset -q HEAD --
+	discard = checkout --
+	uncommit = reset --mixed HEAD~
+	strip = reset HEAD~1
+[credential]
+	helper = osxkeychain

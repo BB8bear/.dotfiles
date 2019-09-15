@@ -1,0 +1,20 @@
+- defaults:
+  link:
+    create: true
+    relink: true
+
+- clean: ['~']
+
+- link:
+  ~/.dotfiles: ''
+  # bash
+  ~/.bash_profile: bash/.bash_profile
+  # zsh
+  ~/.zshrc: zsh/zshrc.zsh
+  # git
+  ~/.gitconfig: git/.gitconfig
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
+  - [bash ./vscode/install.sh, Installing vscode extensions]
+  - [node -v, Remember to install node with "nvm install node"]
